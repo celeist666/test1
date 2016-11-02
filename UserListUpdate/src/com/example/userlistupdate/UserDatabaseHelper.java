@@ -12,7 +12,7 @@ public class UserDatabaseHelper extends SQLiteOpenHelper {
     private static final String CREATE_TABLE_USERS =
         "CREATE TABLE users (" +
         "_id INTEGER PRIMARY KEY AUTOINCREMENT, " + 
-        "name TEXT NOT NULL, " +
+        "name TEXT NOT NULL, " +    
         "city TEXT NOT NULL," +
         "age INTEGER NOT NULL);";
     private static final String DROP_TABLE_USERS =
